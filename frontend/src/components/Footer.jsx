@@ -26,7 +26,7 @@ export default function Footer({ onOpenChat }) {
 
         <div className="footer-bottom">
           <div style={{ fontSize: '0.82rem' }}>
-            &copy; {new Date().getFullYear()} CodeAlpha Cloud Computing Internship — <strong>TASK 4: Making a Chatbot</strong>. All rights reserved.
+            &copy; {new Date().getFullYear()} <strong>AI Chatbot</strong>. All rights reserved.
           </div>
           <div style={{ fontSize: '0.82rem', color: 'var(--text-dim)' }}>
             Built with React, Vite, Node.js, Express &amp; Intelligent Retrieval NLP.

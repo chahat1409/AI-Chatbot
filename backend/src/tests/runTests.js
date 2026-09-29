@@ -7,7 +7,7 @@ const runAccuracyTests = require('./intentAccuracy.test');
 
 console.log('========================================================');
 console.log('🤖 CLOUDBOT AUTOMATED VALIDATION & BENCHMARK SUITE');
-console.log('   CodeAlpha Cloud Computing Task 4: Making a Chatbot');
+console.log('   AI Chatbot');
 console.log('========================================================');
 
 const nlpResults = runNlpTests();

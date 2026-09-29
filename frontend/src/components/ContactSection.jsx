@@ -36,7 +36,7 @@ export default function ContactSection({ onSelectPrompt }) {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Email Inquiries</div>
-                  <div style={{ fontWeight: 600, color: '#ffffff' }}>support@cloudbot.codealpha.tech</div>
+                  <div style={{ fontWeight: 600, color: '#ffffff' }}>support@cloudbot.ai</div>
                 </div>
               </div>
 

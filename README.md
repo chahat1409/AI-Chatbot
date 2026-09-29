@@ -1,7 +1,7 @@
 # CloudBot — AI-Powered Website Assistant
 
-> **CodeAlpha Cloud Computing Internship — Task 4: Making a Chatbot**  
-> **Recommended Repository Name:** `CodeAlpha_AIChatbot`
+> **AI Chatbot**  
+> **Repository Name:** `AI_Chatbot`
 
 ---
 
@@ -17,11 +17,11 @@ The solution seamlessly embeds a floating interactive chat widget into a realist
 
 | Official Task 4 Requirement | Implementation in CloudBot | Verification Method | Status |
 | :--- | :--- | :--- | :---: |
-| **1. Design an AI-powered chatbot using either retrieval-based or generative models** | Engineered a hybrid retrieval engine combining TF-IDF vectorization, Cosine Similarity, Jaccard N-gram index, and Levenshtein edit distance. | [similarityEngine.js](file:///C:/Users/Pharhan/.gemini/antigravity-ide/scratch/CodeAlpha_AIChatbot/backend/src/engine/similarityEngine.js) | ✅ Verified |
+| **1. Design an AI-powered chatbot using either retrieval-based or generative models** | Engineered a hybrid retrieval engine combining TF-IDF vectorization, Cosine Similarity, Jaccard N-gram index, and Levenshtein edit distance. | [similarityEngine.js](backend/src/engine/similarityEngine.js) | ✅ Verified |
 | **2. Enable instant responses to user queries on websites** | Sub-20ms query resolution latency served by an optimized Express REST API (`/api/chat`). | Live Benchmark Test: **15.77 ms average latency** | ✅ Verified |
-| **3. Train the chatbot with predefined input patterns for commercial use** | Structured commercial knowledge base with **15 core business intents** and **over 100+ diverse training patterns** covering services, pricing, SLA, security, working hours, and billing. | [intents.json](file:///C:/Users/Pharhan/.gemini/antigravity-ide/scratch/CodeAlpha_AIChatbot/backend/src/data/intents.json) | ✅ Verified |
-| **4. Integrate the chatbot seamlessly with the target website interface** | Built a responsive multi-page commercial cloud website (Hero, Services, About, Pricing, FAQ, Contact) with an interactive floating widget launcher. | [ChatWidget.jsx](file:///C:/Users/Pharhan/.gemini/antigravity-ide/scratch/CodeAlpha_AIChatbot/frontend/src/components/ChatWidget/ChatWidget.jsx) | ✅ Verified |
-| **5. Optimize and test the chatbot for accuracy and user engagement** | Automated benchmark test suite evaluating 37 realistic commercial queries with **100% accuracy**, in-chat thumbs up/down user feedback, and live analytics dashboard. | [intentAccuracy.test.js](file:///C:/Users/Pharhan/.gemini/antigravity-ide/scratch/CodeAlpha_AIChatbot/backend/src/tests/intentAccuracy.test.js) | ✅ Verified |
+| **3. Train the chatbot with predefined input patterns for commercial use** | Structured commercial knowledge base with **15 core business intents** and **over 100+ diverse training patterns** covering services, pricing, SLA, security, working hours, and billing. | [intents.json](backend/src/data/intents.json) | ✅ Verified |
+| **4. Integrate the chatbot seamlessly with the target website interface** | Built a responsive multi-page commercial cloud website (Hero, Services, About, Pricing, FAQ, Contact) with an interactive floating widget launcher. | [ChatWidget.jsx](frontend/src/components/ChatWidget/ChatWidget.jsx) | ✅ Verified |
+| **5. Optimize and test the chatbot for accuracy and user engagement** | Automated benchmark test suite evaluating 37 realistic commercial queries with **100% accuracy**, in-chat thumbs up/down user feedback, and live analytics dashboard. | [intentAccuracy.test.js](backend/src/tests/intentAccuracy.test.js) | ✅ Verified |
 
 ---
 
@@ -117,7 +117,7 @@ CloudBot includes an automated validation suite that benchmarks **37 diverse que
 ```text
 ========================================================
 🤖 CLOUDBOT AUTOMATED VALIDATION & BENCHMARK SUITE
-   CodeAlpha Cloud Computing Task 4: Making a Chatbot
+   AI Chatbot
 ========================================================
 
 --- Running NLP Preprocessor Tests ---
@@ -183,7 +183,7 @@ Average Query Latency:   15.77 ms
 ## 📁 Project Directory Structure
 
 ```text
-CodeAlpha_AIChatbot/
+AI_Chatbot/
 ├── backend/
 │   ├── package.json
 │   ├── src/
@@ -225,7 +225,7 @@ CodeAlpha_AIChatbot/
 │           ├── AboutSection.jsx    # System architecture explainer
 │           ├── FAQSection.jsx      # Accordion FAQ with direct bot question buttons
 │           ├── ContactSection.jsx  # Contact form & corporate office details
-│           ├── Footer.jsx          # Footer & CodeAlpha task attribution
+│           ├── Footer.jsx          # Footer & task attribution
 │           ├── AnalyticsModal.jsx  # Live NLP Telemetry & Knowledge Base explorer
 │           └── ChatWidget/
 │               ├── ChatWidget.jsx  # Master floating widget container & audio
@@ -250,8 +250,8 @@ Clone the repository and install dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/chahat1409/CodeAlpha_AIChatbot.git
-cd CodeAlpha_AIChatbot
+git clone https://github.com/chahat1409/AI_Chatbot.git
+cd AI_Chatbot
 
 # Install backend dependencies
 cd backend
@@ -329,10 +329,10 @@ Open your browser and navigate to:
 
 ---
 
-## 📹 LinkedIn Video Demonstration Guide
+## 📹 Video Demonstration Guide
 
-For your CodeAlpha internship submission, record a 2–3 minute video showing:
-1. **Introduction**: Introduce yourself, the project name (**CloudBot — AI-Powered Website Assistant**), and CodeAlpha Cloud Computing Task 4.
+For your demonstration, record a 2–3 minute video showing:
+1. **Introduction**: Introduce yourself, the project name (**CloudBot — AI Chatbot**).
 2. **Website Tour**: Scroll through the commercial website (Hero, Services, Pricing, FAQ).
 3. **Chatbot Interaction**:
    - Click the floating launcher button in the bottom right.
@@ -344,16 +344,16 @@ For your CodeAlpha internship submission, record a 2–3 minute video showing:
    - Open the **"📊 Live Metrics"** modal from the navbar to show the live accuracy score and intent breakdown.
 5. **Code & Test Suite**:
    - Run `npm test` in the terminal to display the benchmark report showing 37/37 tests passing with 100% accuracy.
-6. **Conclusion**: Thank CodeAlpha and mention your GitHub repository `CodeAlpha_AIChatbot`.
+6. **Conclusion**: Summary and mention your GitHub repository `AI_Chatbot`.
 
 ## 👩‍💻 Author & Developer
 
 - **Name**: Chahat Kumari
 - **GitHub**: [@chahat1409](https://github.com/chahat1409)
 - **Email**: [chahat343435@gmail.com](mailto:chahat343435@gmail.com)
-- **Internship**: CodeAlpha Cloud Computing Internship — Task 4: Making a Chatbot
+- **Project**: AI Chatbot
 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License — created by **Chahat Kumari** for the **CodeAlpha Cloud Computing Internship Program**.
+This project is licensed under the MIT License — created by **Chahat Kumari**.

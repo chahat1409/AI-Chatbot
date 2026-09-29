@@ -1,6 +1,6 @@
 /**
  * CloudBot — AI-Powered Website Assistant
- * CodeAlpha Cloud Computing Task 4: Making a Chatbot
+ * AI Chatbot
  * Express REST API Server
  */
 

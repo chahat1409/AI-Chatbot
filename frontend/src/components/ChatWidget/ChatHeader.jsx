@@ -15,7 +15,7 @@ export default function ChatHeader({ onClear, onMinimize, onClose, soundEnabled,
               AI ASSISTANT
             </span>
           </h4>
-          <p>● Online | CodeAlpha Edition</p>
+          <p>● Online | AI Chatbot</p>
         </div>
       </div>
 

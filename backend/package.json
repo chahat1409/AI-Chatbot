@@ -1,7 +1,7 @@
 {
   "name": "cloudbot-backend",
   "version": "1.0.0",
-  "description": "Backend REST API and NLP Intent Processing Engine for CloudBot - CodeAlpha Task 4",
+  "description": "Backend REST API and NLP Intent Processing Engine for CloudBot - AI Chatbot",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -13,8 +13,7 @@
     "nlp",
     "retrieval-based",
     "express",
-    "intent-classification",
-    "codealpha"
+    "intent-classification"
   ],
   "author": "Chahat Kumari <chahat343435@gmail.com> (https://github.com/chahat1409)",
   "license": "MIT",

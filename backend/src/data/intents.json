@@ -144,7 +144,7 @@
       "where can i send email"
     ],
     "responses": [
-      "You can reach our team via multiple channels:\n• **Email**: support@cloudbot.codealpha.tech\n• **Phone**: +1 (800) 555-CLOUD (Mon-Fri 9am-6pm EST)\n• **Emergency Hotline**: +1 (888) 999-HELP (24/7)\n• **Headquarters**: 450 Cloud Vista Boulevard, Suite 1200, San Francisco, CA\n\nYou can also fill out the interactive contact form on our website!"
+      "You can reach our team via multiple channels:\n• **Email**: support@cloudbot.ai\n• **Phone**: +1 (800) 555-CLOUD (Mon-Fri 9am-6pm EST)\n• **Emergency Hotline**: +1 (888) 999-HELP (24/7)\n• **Headquarters**: 450 Cloud Vista Boulevard, Suite 1200, San Francisco, CA\n\nYou can also fill out the interactive contact form on our website!"
     ],
     "quickReplies": [
       "What are your working hours?",
@@ -298,7 +298,7 @@
       "escalate to human"
     ],
     "responses": [
-      "I am connecting you with our Live Support Team. A customer success representative will join this session shortly.\n\nIn the meantime, you can also reach us immediately by phone at **+1 (800) 555-CLOUD** or email **support@cloudbot.codealpha.tech**."
+      "I am connecting you with our Live Support Team. A customer success representative will join this session shortly.\n\nIn the meantime, you can also reach us immediately by phone at **+1 (800) 555-CLOUD** or email **support@cloudbot.ai**."
     ],
     "quickReplies": [
       "Leave a callback message",
@@ -320,7 +320,7 @@
       "tell me about cloudbot"
     ],
     "responses": [
-      "I am **CloudBot**, an AI-powered website assistant created for CodeAlpha Cloud Solutions. I am trained with retrieval-based pattern matching and NLP to give you fast, reliable, 24/7 commercial support."
+      "I am **CloudBot**, an AI-powered website assistant. I am trained with retrieval-based pattern matching and NLP to give you fast, reliable, 24/7 commercial support."
     ],
     "quickReplies": [
       "What services do you offer?",
